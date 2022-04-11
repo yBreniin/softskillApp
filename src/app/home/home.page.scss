@@ -29,6 +29,10 @@
 ion-header {
   background: #8B00FF;
 
+  .menu{
+    background: #fff;
+  }
+
   .div{
     margin-top: 50px;
     margin-left: 15%;
@@ -54,4 +58,20 @@ ion-header {
 
 ion-content {
   --background: linear-gradient( #8B00FF, #390068  );
+  div{
+    height: auto;
+    width: 100%;
+    background: #fff;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: fixed;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+}
+
+.my-custom-menu {
+  --width: 500px;
 }

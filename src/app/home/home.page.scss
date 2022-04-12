@@ -31,58 +31,48 @@ ion-content {
 
   .assest {
     height: 50vh;
+    background: white;
+    width: auto;
+    border-bottom-left-radius: 100px;
+
+    .img {
+      margin-top: auto;
+      border-radius: 100px;
+    }
+  }
+
+  .assest2 {
+    height: 50vh;
     width: 100%;
+    background: #ff7c72;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    border-top-right-radius: 100px;
+  }
 
-    .menu {
-      background: #fff;
-    }
+  .text {
+    height: auto;
+    width: 300px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 45px;
+    word-break: normal;
+  }
+  span {
+    font-style: italic;
+  }
+  h1 {
+    font-style: oblique;
+  }
 
-    .div {
-      margin-top: 50px;
-      margin-left: 15%;
-      background: white;
-      border-bottom-left-radius: 100px;
-
-      .img {
-        margin-top: auto;
-        border-radius: 100px;
-      }
-    }
-
-    .assest2 {
-      height: 50vh;
-      width: 100%;
-      background: #ff7c72;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-      position: absolute;
-      border-top-right-radius: 100px;
-    }
-
-    .text {
-      height: auto;
-      width: 300px;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      color: white;
-      text-align: center;
-      margin-top: 80px;
-      margin-left: 45px;
-      word-break: normal;
-    }
-    span {
-      font-style: italic;
-    }
-
-    h1 {
-      font-style: oblique;
-    }
-
-    .button {
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      text-align: center;
-      margin-top: 30px;
-    }
+  .button {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 30px;
   }
 }

@@ -27,31 +27,56 @@
 }
 
 ion-header {
-  background: #8B00FF;
-
-  .div{
-    margin-top: 50px;
-    margin-left: 15%;
-    background: white;
-    width: 70vw;
-    padding: 3em;
-    border-radius: 12px;
-  }
-
-  .texto {
-    margin: 0 0 0 0.5em;
-    text-transform: uppercase;
-    font-weight: 900;
-    font-style: italic;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
-    text-align: center;
-    color: #8B00FF;
-    line-height: 0.8;
-    margin: 0;
-  }
 }
 
 ion-content {
-  --background: linear-gradient( #8B00FF, #390068  );
+  --background: linear-gradient(#ff7c72 50%, white 50%);
+
+  .assest {
+    height: 50vh;
+    width: 100%;
+    background: white;
+    border-bottom-left-radius: 100px;
+
+    .img {
+      margin-top: auto;
+      border-radius: 100px;
+    }
+  }
+
+  .assest2 {
+    height: 50vh;
+    width: 100%;
+    background: #ff7c72;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    border-top-right-radius: 100px;
+  }
+
+  .text {
+    height: auto;
+    width: 300px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 45px;
+    word-break: normal;
+  }
+  span {
+    font-style: italic;
+  }
+
+  h1 {
+    font-style: oblique;
+  }
+
+  .button {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+  }
 }

@@ -1,13 +1,64 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>Detalhes</ion-title>
-    <ion-button slot="end" fill="end" color="dark">
-      <ion-backdrop></ion-backdrop>
-      <ion-icon slot="icon-only" name="close-outline"></ion-icon>
-    </ion-button>
-  </ion-toolbar>
-</ion-header>
+<div style="background-color: #215285;">
+  <img class="imagemd" src="../../../assets/detalhes.png">
+</div>
 
 <ion-content>
+
+  <!-- Back Button -->
+  <div>
+    <ion-row>
+      <ion-col #slot6 class="fechar">
+        <ion-button shape="round" color="danger" size="small">
+          <ion-backdrop></ion-backdrop>
+          <ion-icon slot="icon-only" name="close-outline"></ion-icon>
+        </ion-button>
+
+        <ion-button shape="round" color="medium" size="small">
+          <ion-icon slot="icon-only" name="person-outline"></ion-icon>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </div>
+  <!-- Back Button -->
+
+  <div #slot1 class="slot1">
+    <ion-row>
+      <ion-col class="centro">
+        <ion-button routerLink="/autoconfianca" fill="clear" size="large" color="dark">Autoconfiança</ion-button>
+      </ion-col>
+    </ion-row>
+  </div>
+
+  <div #slot2 class="slot2">
+    <ion-row>
+      <ion-col class="centro">
+        <ion-button routerLink="/autogestao" fill="clear" size="large" color="dark">Autogestão</ion-button>
+      </ion-col>
+    </ion-row>
+  </div>
+
+  <div #slot3 class="slot1">
+    <ion-row>
+      <ion-col class="centro">
+        <ion-button routerLink="/honestidade" fill="clear" size="large" color="dark">Honestidade</ion-button>
+      </ion-col>
+    </ion-row>
+  </div>
+
+  <div #slot4 class="slot2">
+    <ion-row>
+      <ion-col class="centro">
+        <ion-button routerLink="/motivacao" fill="clear" size="large" color="dark">Motivação</ion-button>
+      </ion-col>
+    </ion-row>
+  </div>
+
+  <div #slot5 class="slot1">
+    <ion-row>
+      <ion-col class="centro">
+        <ion-button routerLink="/resiliencia" fill="clear" size="large" color="dark">Resiliência</ion-button>
+      </ion-col>
+    </ion-row>
+  </div>
 
 </ion-content>

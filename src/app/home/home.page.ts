@@ -44,9 +44,8 @@ export class HomePage implements AfterViewInit {
         .create()
         .addElement(root.querySelector('.modal-wrapper')!)
         .keyframes([
-          { offset: 0, opacity: 0, transform: 'scale(0) rotate(0)' },
-          { offset: 0.5, opacity: 0.5, transform: 'scale(0) rotate(100deg)' },
-          { offset: 1, opacity: 0.99, transform: 'scale(1) rotate(0)' },
+          { offset: 0, opacity: '0', transform: 'scale(0)' },
+          { offset: 1, opacity: '0.99', transform: 'scale(1)' },
         ]);
 
       return this.animationCtrl

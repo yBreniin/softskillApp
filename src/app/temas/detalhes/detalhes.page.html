@@ -1,6 +1,6 @@
-<div style="background-color: #215285;">
-  <img class="imagemd" src="../../../assets/detalhes.png">
-</div>
+<ion-header class="ion-no-border" style="background-color: #fc84e4;">
+  <img src="../../../assets/detimg.png">
+</ion-header>
 
 <ion-content>
 
@@ -13,52 +13,53 @@
           <ion-icon slot="icon-only" name="close-outline"></ion-icon>
         </ion-button>
 
-        <ion-button shape="round" color="medium" size="small">
+        <!-- Versão -->
+        <ion-button id="versao" shape="round" color="medium" size="small">
           <ion-icon slot="icon-only" name="person-outline"></ion-icon>
         </ion-button>
+        <ion-popover class="popoverbruh" trigger="versao" triggerAction="hover">
+          <ng-template>
+            <ion-content style="text-align: center;">v2 Final</ion-content>
+          </ng-template>
+        </ion-popover>
+        <!-- Versão -->
       </ion-col>
     </ion-row>
   </div>
   <!-- Back Button -->
 
-  <div #slot1 class="slot1">
-    <ion-row>
-      <ion-col class="centro">
-        <ion-button routerLink="/autoconfianca" fill="clear" size="large" color="dark">Autoconfiança</ion-button>
-      </ion-col>
-    </ion-row>
-  </div>
 
-  <div #slot2 class="slot2">
-    <ion-row>
-      <ion-col class="centro">
-        <ion-button routerLink="/autogestao" fill="clear" size="large" color="dark">Autogestão</ion-button>
-      </ion-col>
-    </ion-row>
-  </div>
+  <ion-grid class="centro">
 
-  <div #slot3 class="slot1">
-    <ion-row>
-      <ion-col class="centro">
-        <ion-button routerLink="/honestidade" fill="clear" size="large" color="dark">Honestidade</ion-button>
+    <ion-row #slot1>
+      <ion-col>
+        <ion-button (click)="autoconfianca()">Autoconfiança</ion-button>
       </ion-col>
     </ion-row>
-  </div>
 
-  <div #slot4 class="slot2">
-    <ion-row>
-      <ion-col class="centro">
-        <ion-button routerLink="/motivacao" fill="clear" size="large" color="dark">Motivação</ion-button>
+    <ion-row #slot2>
+      <ion-col>
+        <ion-button (click)="autogestao()">Autogestão</ion-button>
       </ion-col>
     </ion-row>
-  </div>
 
-  <div #slot5 class="slot1">
-    <ion-row>
-      <ion-col class="centro">
-        <ion-button routerLink="/resiliencia" fill="clear" size="large" color="dark">Resiliência</ion-button>
+    <ion-row #slot3>
+      <ion-col>
+        <ion-button (click)="honestidade()">Honestidade</ion-button>
       </ion-col>
     </ion-row>
-  </div>
+
+    <ion-row #slot4>
+      <ion-col>
+        <ion-button (click)="motivacao()">Motivação</ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row #slot5>
+      <ion-col>
+        <ion-button (click)="resiliencia()">Resiliência</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
 </ion-content>

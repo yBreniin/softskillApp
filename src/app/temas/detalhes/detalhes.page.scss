@@ -1,40 +1,34 @@
 ion-content {
-  --background: #215285;
+  --background: #fc84e4;
 }
 
-.slot1 {
-  height: 10vh;
-  width: 80%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  background: #fcfcfd;
-  border-bottom-right-radius: 20px;
-  border-top-right-radius: 20px;
-}
-
-.slot2 {
-  height: 10vh;
-  width: 80%;
-  margin-left: 20%;
-  margin-top: 10px;
-  background: #fcfcfd;
-  border-bottom-left-radius: 20px;
-  border-top-left-radius: 20px;
+ion-button {
+  --background: #fc84e4;
+  --border-color: #fff;
+  --border-style: solid;
+  --border-radius: 50px;
+  --border-width: 2px;
+  --padding-bottom: 10px;
+  --padding-start: 20px;
+  --padding-end: 20px;
+  --padding-top: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .centro {
-  top: 0;
+  margin-top: 30%;
   text-align: center;
 }
 
 .fechar {
-  top: 480px;
+  top: 80%;
   text-align: center;
   position: absolute;
 }
 
-.imagemd {
-  background-color: #215285;
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+.popoverbruh {
+  --offset-x: 10px;
+  --offset-y: 5px;
+  --width: 50px;
+  --color: #fff;
 }

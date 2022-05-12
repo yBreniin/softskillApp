@@ -1,12 +1,26 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>autogestao</ion-title>
-    <ion-buttons slot="start">
-      <ion-back-button></ion-back-button>
-    </ion-buttons>
-  </ion-toolbar>
+<ion-header class="ion-no-border" style="background-color: #667fcc;">
+  <img src="../../../assets/detalhes/autogestao.png" alt="">
 </ion-header>
 
-<ion-content>
+<ion-content style="--background: #667fcc;">
+  <ion-card class="centro">
+    <ion-card-header>
+      <ion-card-title>Autogestão</ion-card-title>
+      <ion-card-subtitle>O que é?</ion-card-subtitle>
+    </ion-card-header>
 
+    <ion-card-content>
+      A autogestão é uma forma de organização empresarial em que as tomadas de decisões não são feitas por uma só
+      pessoa. Ao adotar esse método em sua agência, os colaboradores terão mais autonomia em suas atividades.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-row>
+    <ion-col class="fechar">
+      <ion-button routerLink="/home" shape="round" color="light" size="small">
+        <ion-backdrop></ion-backdrop>
+        <ion-icon slot="icon-only" name="arrow-back-outline"></ion-icon>
+      </ion-button>
+    </ion-col>
+  </ion-row>
 </ion-content>
